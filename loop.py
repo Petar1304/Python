@@ -1,0 +1,27 @@
+import os
+import time
+
+while(True):
+    os.system('clear')
+    print(' | ')
+    time.sleep(0.1)
+    os.system('clear')
+    print(' / ')
+    time.sleep(0.1)
+    print(' - ')
+    time.sleep(0.1)
+    os.system('clear')
+    print(' \ ')
+    time.sleep(0.1)
+    os.system('clear')
+    print(' | ')
+    time.sleep(0.1)
+    os.system('clear')
+    print(' / ')
+    time.sleep(0.1)
+    os.system('clear')
+    print(' - ')
+    time.sleep(0.1)
+    os.system('clear')
+    print(' \ ')
+    time.sleep(0.1)
