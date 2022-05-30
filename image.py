@@ -27,6 +27,13 @@ while True:
   if cv2.waitKey(1) == ord('q'):
     break
 
+  # gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+  # blur = cv2.GaussianBlur(img, (7,7), cv2.BORDER_DEFAULT)
+
+  # Edge Cascade
+  # canny = cv2.Canny(img, 125, 175)
+
+
 
 print(f'Shape: {frame.shape}')
 
