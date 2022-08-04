@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import cv2
 import numpy as np
 
-imgs_dir = '/home/petar/zentrixlab/images/'
-img = cv2.imread(imgs_dir + 'image25.jpg', 0) # 0 for grayscale
+img_path = ''
+img = cv2.imread(img_path, 0) # 0 for grayscale
 
 
 # SIFT algorithm
@@ -40,7 +40,8 @@ def find_contours():
 
 # template matching algorithm
 def template_matching():
-  template = cv2.imread('/home/petar/zentrixlab/images/template3.png', 0)
+  template_path = ''
+  template = cv2.imread(template_path, 0)
   w, h = template.shape[::-1]
 
   # TM_CCOEFF, TM_CCOEFF_NORMED, TM_CCORR, TM_CCORR_NORMED, TM_SQDIFF, TM_SQDIFF_NORMED
